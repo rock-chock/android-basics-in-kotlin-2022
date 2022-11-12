@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_side_menu.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/fragment_side_menu.xml"
+    },
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_checkout.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_entree_menu.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/fragment_entree_menu.xml"
+    },
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_accompaniment_menu.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_start_order.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/fragment_start_order.xml"
+    },
+    {
+        "merged": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/elenakochegarova/AndroidStudioProjects/android-basics-kotlin-lunch-tray-app-main/app/src/main/res/layout/activity_main.xml"
+    }
+]

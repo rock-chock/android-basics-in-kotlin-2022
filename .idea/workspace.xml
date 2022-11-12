@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1d0864a-3e55-45cd-a602-c990f5557ff0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Debugging2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/androidTest/java/com/example/debugging/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/java/com/example/debugging/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/app/src/test/java/com/example/debugging/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debugging2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/BusScheduleApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/BusStopAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/database/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/database/Schedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/database/ScheduleDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-bus-schedule-app-starter/app/src/main/java/com/example/busschedule/viewmodels/BusScheduleViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-cupcake-app-starter/app/src/main/java/com/example/cupcake/model/OrderViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-cupcake-app-starter/app/src/test/java/com/example/cupcake/ViewModelTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_core_core_1_5_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_databinding_databinding_common_7_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_databinding_databinding_ktx_7_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_7_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/modules/Dessert_Clicker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/modules/android-basics-kotlin-dessert-clicker-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/modules/app/Dessert_Clicker.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/buildConfig/debug/com/example/android/dessertclicker/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/androidx/databinding/DataBinderMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/androidx/databinding/DataBindingComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/androidx/databinding/library/baseAdapters/BR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/com/example/android/dessertclicker/BR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/com/example/android/dessertclicker/DataBinderMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build/generated/source/kapt/debug/com/example/android/dessertclicker/databinding/ActivityMainBindingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_activity_activity_1_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_espresso_espresso_contrib_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__com_google_android_apps_common_testing_accessibility_framework_accessibility_test_framework_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/modules/Dogglers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/modules/app/Dogglers.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/build/generated/source/buildConfig/androidTest/debug/com/example/dogglers/test/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/build/generated/source/buildConfig/debug/com/example/dogglers/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-inventory-app-starter/app/src/main/java/com/example/inventory/data/Item.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-inventory-app-starter/app/src/main/java/com/example/inventory/data/ItemDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-inventory-app-starter/app/src/main/java/com/example/inventory/data/ItemRoomDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_activity_activity_1_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_databinding_databinding_common_7_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_databinding_databinding_ktx_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_3_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_testing_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_core_ktx_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/modules/Lunch_Tray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/modules/app/Lunch_Tray.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/navEditor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/app/build/generated/source/buildConfig/androidTest/debug/com/example/lunchtray/test/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-lunch-tray-app-main/app/src/test/java/com/example/lunchtray/UnitTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_core_core_1_7_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_core_core_ktx_1_7_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_databinding_databinding_common_7_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_databinding_databinding_ktx_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_java8_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_okhttp3_mockwebserver_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_okio_okio_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__io_coil_kt_coil_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__io_coil_kt_coil_base_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_50.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/modules/MarsPhotos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/modules/app/MarsPhotos.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/main/java/com/example/android/marsphotos/BindingAdapters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/main/java/com/example/android/marsphotos/network/MarsApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/main/java/com/example/android/marsphotos/network/MarsPhoto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/main/java/com/example/android/marsphotos/overview/PhotoGridAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/test/java/com/example/android/marsphotos/BaseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/test/java/com/example/android/marsphotos/MarsApiServiceTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-mars-photos-app-starter/app/src/test/res/mars_photos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-unscramble-app-starter/app/src/main/java/com/example/android/unscramble/ui/game/GameViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/androidTest/java/com/example/words/NavigationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/LetterListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/WordListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_grid_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_linear_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/fragment_letter_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/fragment_word_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/menu/layout_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.github/ISSUE_TEMPLATE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/.github/ISSUE_TEMPLATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/ic_dessert_clicker-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/ic_dessert_clicker-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/bakery_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/bakery_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/cupcake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/cupcake.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/donut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/donut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/eclair.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/eclair.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/froyo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/froyo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/gingerbread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/gingerbread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/honeycomb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/honeycomb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/icecreamsandwich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/icecreamsandwich.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/jellybean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/jellybean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/kitkat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/kitkat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/lollipop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/lollipop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/marshmallow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/marshmallow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/nougat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/nougat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/oreo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/oreo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/white_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/drawable/white_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/code-of-conduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dessert-clicker-app/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.github/ISSUE_TEMPLATE/android-basics-dogglers-app.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/.github/ISSUE_TEMPLATE/android-basics-dogglers-app.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/BaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/ButtonTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/ButtonTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/GridListTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/GridListTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/HorizontalListTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/HorizontalListTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/VerticalListTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/androidTest/java/com/example/dogglers/VerticalListTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/GridListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/GridListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/HorizontalListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/HorizontalListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/VerticalListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/VerticalListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/adapter/DogCardAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/adapter/DogCardAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/const/Layout.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/const/Layout.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/data/DataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/data/DataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/model/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/java/com/example/dogglers/model/Dog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/bella.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/bella.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/faye.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/faye.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/frankie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/frankie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/leroy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/leroy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/nox.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/nox.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/tzeitel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/drawable/tzeitel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_grid_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_grid_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_horizontal_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_horizontal_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_vertical_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/activity_vertical_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/grid_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/grid_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/vertical_horizontal_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/layout/vertical_horizontal_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/code-of-conduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-dogglers-app/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/.github/ISSUE_TEMPLATE/android-basics--lemonade-app.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/.github/ISSUE_TEMPLATE/android-basics--lemonade-app.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/androidTest/java/com/example/lemonade/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/androidTest/java/com/example/lemonade/BaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/androidTest/java/com/example/lemonade/LemonadeTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/androidTest/java/com/example/lemonade/LemonadeTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/ic_launcher_lemonade-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/ic_launcher_lemonade-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/java/com/example/lemonade/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/java/com/example/lemonade/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/ic_launcher_lemonade_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/ic_launcher_lemonade_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/ic_launcher_lemonade_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/ic_launcher_lemonade_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_drink.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_drink.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_restart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_restart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_squeeze.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_squeeze.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_tree.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/drawable/lemon_tree.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_lemonade_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-hdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-mdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_lemonade_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/code-of-conduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-lemonade-app/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/.github/ISSUE_TEMPLATE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/.github/ISSUE_TEMPLATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/DetailActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/LetterAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/LetterAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/WordAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/java/com/example/wordsapp/WordAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/activity_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/layout/item_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/code-of-conduct.md" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/code-of-conduct.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-basics-kotlin-words-app/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android-basics-kotlin-words-app/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="25lYs0wpJ4WwCZmYooo35uxOvay" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1d0864a-3e55-45cd-a602-c990f5557ff0" name="Default Changelist" comment="" />
+      <created>1646103342770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646103342770</updated>
+    </task>
+    <servers />
+  </component>
+</project>
